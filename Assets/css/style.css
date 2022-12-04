@@ -4,3 +4,7 @@ body{
     background-color: black;
     color: #fff;
 }
+
+.carrousel{
+    aspect-ratio: 5/4;
+}
