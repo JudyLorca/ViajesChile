@@ -19,9 +19,9 @@ body {
 
 /* Estilos Footer */
 
-.footer-wrap {
+.footer-link {
     display: flex;
-    justify-content: space-around;
+    justify-items: center;
     align-items: center;
 }
 
@@ -33,7 +33,7 @@ body {
     color: #fff;
 }
 
-/* Fija color solicitado en requerimiento en íconos de link en footer */
+/* Fija color white en íconos de link en footer */
 
 a{
     color: #fff;
