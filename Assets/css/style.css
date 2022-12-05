@@ -1,9 +1,13 @@
+/* estilos generales cuerpo-body */
+
 body {
     padding: 0;
     margin: 0;
     background-color: black;
     color: #fff;
 }
+
+/* Estabilización-estandarización aspecto carrusel y tarjetas */
 
 .carrousel {
     aspect-ratio: 5/4;
@@ -13,14 +17,30 @@ body {
     aspect-ratio: 5/4;
 }
 
+/* Estilos Footer */
+
 .footer-wrap {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* Clase para condicionar en js cambio color navbar */
+
 .nav-black {
     background-color: black;
     opacity: 0.9;
     color: #fff;
 }
+
+/* Fija color solicitado en requerimiento en íconos de link en footer */
+
+a{
+    color: #fff;
+}
+
+/* Suavisar desplazamiento scroll */
+
+html {
+    scroll-behavior: smooth;
+  }
