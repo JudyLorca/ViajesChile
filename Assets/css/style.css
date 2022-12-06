@@ -21,8 +21,8 @@ body {
 
 .footer-link {
     display: flex;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Clase para condicionar en js cambio color navbar */
